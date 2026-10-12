@@ -1,0 +1,8 @@
+# Make GitHub detect .m files as MATLAB (not Objective-C)
+*.m      linguist-language=MATLAB text eol=lf
+
+# MATLAB Live Editor / App Designer files are ZIP packages
+*.mlx    binary
+*.mlapp  binary
+*.wav    binary
+*.png    binary
